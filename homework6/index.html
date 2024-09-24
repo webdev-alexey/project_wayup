@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Тест по теории jQuery</title>
+    <style>
+      body {
+        font-size: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <p>1. Как правильно обращаться к элементу DOM через jQuery?</p>
+    <ul>
+      <li>$(#id) / $(.class)</li>
+      <li>$(id) / $(class)</li>
+      <li>$('.id') / $('#class')</li>
+      <li style="color: red">$('#id') / $('.class')</li>
+    </ul>
+    <p>2. Как изменить размер шрифта в 40px у тега div с классом 'text'?</p>
+    <ul>
+      <li>$('.text').css('font-size' : '40px');</li>
+      <li>$('text').css({'font-size'} : '40px');</li>
+      <li style="color: red">$('.text').css({'font-size' : '40px'});</li>
+      <li>$('.text').css({'font-size' : '40'});</li>
+    </ul>
+    <p>3. Что такое jQuery?</p>
+    <ul>
+      <li>Фреймворк для создания дизайн паттернов</li>
+      <li style="color: red">
+        Библиотека для облегчения доступа к элементам DOM
+      </li>
+      <li>Набор готовых конструкций циклов</li>
+      <li>Метод для поиска багов в коде</li>
+    </ul>
+    <p>
+      4. Есть код: [input type="checkbox"/]Как получить значение аттрибута type?
+    </p>
+    <ul>
+      <li>$('input').Attr('type');</li>
+      <li style="color: red">$('input').attr('type');</li>
+      <li>$('input').type();</li>
+      <li>$('input').attr(true);</li>
+    </ul>
+    <p>5. Как правильно подключить jQuery?</p>
+    <ul>
+      <li>После главного файла main.js</li>
+      <li>Внутри файла main.js</li>
+      <li>В розетку, в которую включен компьютер</li>
+      <li style="color: red">Перед главным файлом main.js</li>
+    </ul>
+  </body>
+</html>
