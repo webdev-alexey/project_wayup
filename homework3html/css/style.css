@@ -1,0 +1,44 @@
+.header__title {
+  color: red;
+}
+
+.header__text {
+  width: 100px;
+}
+
+.header__text--bgblue {
+  background-color: blue;
+}
+
+.red {
+  color: red;
+}
+
+.с-white {
+  color: #fff;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.p-30 {
+  padding: 30px;
+}
+
+.ml-100 {
+  margin-left: 100px;
+}
+
+.textlist__item {
+  border: 1px solid black;
+  font-size: 25px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
