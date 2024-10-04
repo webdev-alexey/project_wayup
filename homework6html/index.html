@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Верстка современного сайта</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+
+  <body>
+    <header id="header" class="header">
+      <div class="container">
+        <img src="img/logo.png" alt="WAYUP" class="logo" />
+
+        <div class="wrapper">
+          <div class="header__offer animate__animated animate__fadeInLeft">
+            <h1 class="header__title">
+              С помощью верстки я создам ту жизнь, о которой
+              <span class="fs-59 mt-17">мечтаю!</span>
+            </h1>
+            <p class="header__intro">
+              Мои стремления + настойчивость позволят мне достичь чего угодно. Я
+              не верю в это. Я знаю это на 100%. Меня не остановить!
+            </p>
+            <a href="#" class="btn">Двигаться к мечте!</a>
+          </div>
+
+          <img
+            src="img/travel.png"
+            alt="Travel"
+            class="header__travel animate__animated animate__fadeInRight"
+          />
+        </div>
+      </div>
+    </header>
+
+    <section id="learn" class="learn">
+      <div class="container">
+        <h2 class="section__title">Что меня ждет впереди</h2>
+        <div class="virtues">
+          <div class="virtues__item virtues__item--schedule animate__animated">
+            <h3 class="virtues__title">Свободное время</h3>
+            <p class="virtues__text">
+              Мне нужно свободное время на семью и самое настоящее
+            </p>
+          </div>
+          <div class="virtues__item virtues__item--travels animate__animated">
+            <h3 class="virtues__title">Яркие путешествия</h3>
+            <p class="virtues__text">
+              Работать откуда угодно - что может быть лучше?
+            </p>
+          </div>
+          <div class="virtues__item virtues__item--values animate__animated">
+            <h3 class="virtues__title">Создание ценности</h3>
+            <p class="virtues__text">
+              Нет ничего сильнее, чем жить не просто так, создавая ценность
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="mail" class="mail">
+      <div class="container">
+        <h2 class="section__title animate__animated">
+          Форма заказа билета в будущее
+        </h2>
+
+        <form action="#" class="mail__form animate__animated">
+          <input
+            type="text"
+            name="name"
+            class="mail__input"
+            placeholder="Имя"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            class="mail__input"
+            placeholder="E-mail"
+            required
+          />
+          <input
+            type="tel"
+            name="number"
+            class="mail__input"
+            placeholder="Телефон"
+            required
+          />
+          <input
+            type="text"
+            name="text"
+            class="mail__input"
+            placeholder="Куда я полечу в ближайшее время?"
+          />
+          <button type="submit" class="btn btn--form">
+            Двигаться к мечте!
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer id="footer" class="footer">
+      <div class="container">
+        <p class="credits">© Все мои мечты защищены моим трудолюбием</p>
+      </div>
+    </footer>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
